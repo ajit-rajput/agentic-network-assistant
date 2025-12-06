@@ -34,6 +34,9 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
+## Start the Tool Server (Terminal A)
+python server/tool_server.py
 
+## Start the Application (Terminal B)
+streamlit run web/streamlit_app.py
 
-****
