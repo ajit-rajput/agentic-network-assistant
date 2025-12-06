@@ -11,7 +11,7 @@ No real lab hardware is required. The backend uses pyATS-style mock outputs, and
 ## Features
 - Local LLM reasoning via Ollama  
 - Tool-based agent architecture  
-- 10 mock Cisco IOS devices  
+- Mock Cisco IOS devices  
 - 25+ simulated show commands  
 - Streamlit web interface  
 - Works completely offline  
