@@ -1,0 +1,5 @@
+Interface  IP-Address  Status  Protocol
+Eth1/1 10.176.129.66 up up
+Eth1/2 10.67.95.179 up up
+Eth1/3 10.146.141.149 up up
+Eth1/4 10.88.184.69 up up

@@ -1,0 +1,2 @@
+Cisco IOS XE Software, Version 17.8.1
+Device uptime is 208 days
