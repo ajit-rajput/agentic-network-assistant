@@ -17,6 +17,19 @@ No real lab hardware is required. The backend uses pyATS-style mock outputs, and
 - Works completely offline  
 
 ---
+## Components
+- Streamlit Web App
+- Flask Tool Server (rest endpoints)
+- Mock Data
+---
+## Data Flow
+User Query -->
+Streamlit App (LLM decision-making) -->
+Ollama LLM (decides: inventory or run_show) -->
+Flask Backend (executes tool, reads mock files) -->
+Converts commands to filenames (e.g. show ip interface brief) -->
+Results displayed in Streamlit UI
+---
 
 ## Requirements
 - Python 3.10+  
