@@ -22,7 +22,7 @@ No real lab hardware is required. The backend uses pyATS-style mock outputs, and
 - Flask Tool Server (rest endpoints)
 - Mock Data
 ---
-## Data Flow
+### Data Flow
 User Query -->
 Streamlit App (LLM decision-making) -->
 Ollama LLM (decides: inventory or run_show) -->
